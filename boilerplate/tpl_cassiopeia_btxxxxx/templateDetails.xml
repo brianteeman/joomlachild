@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="template" client="site">
+  <name>cassiopeia_btxxxxx</name>
+  <author>Brian Teeman</author>
+  <creationDate>May 2023</creationDate>
+  <copyright>2023 Brian Teeman, All Rights Reserved.</copyright>
+  <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+  <authorEmail>brian@teeman.net</authorEmail>
+  <authorUrl>https://www.learnjoomla4.com</authorUrl>
+  <version>1.0.0</version>
+  <description>Cassiopeia child template (add detailed description here)</description>
+  <inheritable>0</inheritable>
+  <parent>cassiopeia</parent>
+  <files>
+    <filename>templateDetails.xml</filename>
+    <folder>html</folder>
+  </files>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/tpl_cassiopeia_btxxxxx.ini</language>
+		<language tag="en-GB">en-GB/tpl_cassiopeia_btxxxxx.sys.ini</language>
+	</languages>
+  <media folder="media" destination="templates/site/cassiopeia_btxxxxx">
+    <folder>css</folder>
+    <folder>js</folder>
+    <folder>images</folder>
+  </media>
+</extension>

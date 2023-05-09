@@ -1,0 +1,18 @@
+.contact-form .form-floating>textarea.form-control {
+  height: 200px;
+}
+
+.contact-form .form-control-feedback {
+  display: inline-block;
+  background-color: var(--warning);
+  margin-inline-start: 1rem;
+  padding: .5rem;
+  font-size: small;
+  color: var(--white)
+}
+
+.com-contact.contact {
+  padding: 1rem 1rem 0 1rem;
+  margin-bottom: 0;
+  background: var(--gray-300);
+}

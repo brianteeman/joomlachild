@@ -1,0 +1,2 @@
+# Cassiopeia Filter Tag
+Cassiopeia child template containing a template override for a category blog with filter buttons. The filters are the tags on each article and all the tags must be added to the category."
