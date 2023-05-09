@@ -1,0 +1,2 @@
+# joomlachild
+Joomla Child Templates
