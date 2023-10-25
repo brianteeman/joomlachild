@@ -32,7 +32,7 @@ $wa->registerAndUseStyle('com_contact_custom', 'com_contact_custom.css');
 <style>
 
 </style>
-<div class="com-contact contact" itemscope itemtype="https://schema.org/Person">
+<div class="com-contact contact">
     <?php if ($tparams->get('show_page_heading')) : ?>
         <h1>
             <?php echo $this->escape($tparams->get('page_heading')); ?>

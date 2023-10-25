@@ -32,7 +32,6 @@ $isUnpublished = ($this->item->state == ContentComponent::CONDITION_UNPUBLISHED 
 
 ?>
 <div class="com-content-category-blog__item blog-item"
-    itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting"
         data-category="
             <?php if ($params->get('show_tags', 1) && !empty($this->item->tags->itemTags)) : ?>
                 <?php foreach ($this->item->tags->itemTags as $tag) { echo $tag->alias . ' '; }; ?>

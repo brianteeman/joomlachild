@@ -31,7 +31,7 @@ $images   = json_decode($this->item->images);
 		<?php if ($params->get('show_title')) : ?>
 			<h3 class="card-title <?php echo ($params->get('title_class_bg')); ?>">
 				<?php if ($params->get('link_titles')) : ?>
-					<a href="<?php echo $link; ?>" itemprop="url">
+					<a href="<?php echo $link; ?>">
 						<?php echo $this->escape($this->item->title); ?>
 					</a>
 				<?php else : ?>
